@@ -17,7 +17,7 @@
   <div id="page-create-point">
     <header>
       <img src="./assets/logo.svg" alt="Ecoleta">
-      <a href="#">
+      <a href="./index.html">
         <span></span>
         Voltar para o início
       </a>
@@ -50,12 +50,11 @@
             <select name="uf">
               <option value="">Selecione o estado</option>
             </select>
+            <input type="hidden" name="state">
           </div>
           <div class="field">
             <label for="city">Cidade</label>
-            <select name="city" disabled>
-              <option value="">Selecione a cidade</option>
-            </select>
+            <select name="city" disabled></select>
           </div>
         </div>
       </fieldset>
@@ -69,6 +68,8 @@
       <button type="submit">Cadastrar ponto de coleta</button>
     </form>
   </div>
+
+  <script src="./script/create-point.js"></script>
 </body>
 
 </html>
