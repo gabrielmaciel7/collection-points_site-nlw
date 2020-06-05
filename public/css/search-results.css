@@ -1,11 +1,12 @@
-body::after{
-  content: '';
-  position: fixed;
+body::after {
+  content: "";
+  position: absolute;
   background: white;
-  top: 260px;
+  top: 0;
   right: 0;
   bottom: 0;
   left: 0;
+  height: 16rem;
   z-index: -5;
 }
 
@@ -39,7 +40,7 @@ body::after{
 
 main {
   margin-top: 48px;
-  margin: 48px 0
+  margin: 48px 0;
 }
 
 main h4 {
@@ -61,13 +62,13 @@ main .card img {
   object-fit: cover;
 }
 
-main .card h1{
+main .card h1 {
   font-size: 36px;
   line-height: 41px;
   margin-top: 18px;
 }
 
-main .card h3{
+main .card h3 {
   margin: 10px 0;
   font-family: Roboto, sans-serif;
   font-weight: bold;
@@ -76,7 +77,7 @@ main .card h3{
   color: var(--primary-color);
 }
 
-main .card p{
+main .card p {
   font-size: 16px;
   line-height: 26px;
   color: #6c6c80;
