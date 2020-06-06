@@ -1,9 +1,12 @@
 {
+  "homepage": "http://gabrielmaciel7.github.io/collection-points_site-nlw",
   "name": "site",
   "version": "1.0.0",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon src/server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +16,7 @@
     "sqlite3": "^4.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.0.0",
     "nodemon": "^2.0.4"
   }
 }
