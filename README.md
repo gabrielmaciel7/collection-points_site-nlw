@@ -1,6 +1,6 @@
 <h1 align="center"> Ecoleta - Collection Points </h1> 
 
-<h4 align="center"> This project was developed in the event Next Level Week (NLW) 1, organised by
+<h4 align="center"> This project was developed in the event Next Level Week (NLW) 1, organized by
 <a href="https://rocketseat.com.br/">Rocketseat</a>.
 </h4>
 
